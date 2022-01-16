@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+	  
+    {
+      "preLaunchTask": "FlashU",
+      "name": "ESP32Debug",
+      "type": "espidf",  //"type": "cppdbg",
+      "request": "launch",
+//       "cwd": "${workspaceFolder}",//build",
+//       "program": "${workspaceRoot}/build/blink.elf",
+//       "miDebuggerPath": "C:/Espressif/.espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gdb.exe",
+//       "setupCommands": [
+// 	      {"text": "target remote 127.0.0.1:3333"},
+// 	      {"text": "set remote hardware-watchpoint-limit 2"},
+// 	      {"text": "monitor reset halt"},
+// 	      {"text": "flushregs"},
+// 	      {"text": "mon program_esp build/bootloader/bootloader.bin 0x1000 verify"},
+// 	      {"text": "mon program_esp build/partition_table/partition-table.bin 0x8000 verify"},
+// 	      {"text": "mon program_esp build/blink.bin 0x10000 verify"},
+// 	      {"text": "monitor reset halt"},
+// 	      {"text": "flushregs"}
+//       ]
+    }
+  ]
+}
