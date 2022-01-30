@@ -62,9 +62,14 @@
     }
   </style> -->
   <style>
+    html {
+      display: inline-block;
+      text-align: center;
+    }
     table {
+      display: inline-block;
       position: relative;
-      width: 80%;
+      width: 100%;
       border-spacing: 0px;
     }
 
@@ -116,10 +121,11 @@
     }
 
     .navbar {
+      /* display: inline-block; */
       width: 100%;
       height: 50px;
       margin: 0;
-      padding: 10px 0px;
+      padding: 5px 0px;
       background-color: #FFF;
       color: #000000;
       border-bottom: 5px solid #293578;
@@ -134,36 +140,38 @@
     }
 
     .navtitle {
-      float: left;
+      display: inline-block;
+      /* float: left; */
       height: 50px;
       font-family: "Verdana", "Arial", sans-serif;
       font-size: 50px;
       font-weight: bold;
       line-height: 50px;
-      padding-left: 20px;
+      /* padding-left: 20px; */
     }
 
     .navheading {
-      position: fixed;
+      position: relative;
       left: 60%;
+      justify-content: right;
       height: 50px;
       font-family: "Verdana", "Arial", sans-serif;
       font-size: 20px;
       font-weight: bold;
       line-height: 20px;
-      padding-right: 20px;
+      padding-right: 40px;
     }
 
     .navdata {
-      justify-content: flex-end;
-      position: fixed;
-      left: 70%;
-      height: 50px;
+      /* justify-content: right; */
+      /* position: fixed; */
+      /* left: 70%; */
+      /* height: 50px; */
       font-family: "Verdana", "Arial", sans-serif;
-      font-size: 20px;
+      /* font-size: 20px; */
       font-weight: bold;
-      line-height: 20px;
-      padding-right: 20px;
+      /* line-height: 20px; */
+      /* padding-right: 20px; */
     }
 
     .category {
