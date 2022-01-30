@@ -1,0 +1,66 @@
+/*@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+	:root {
+	--bg: #fff;
+	--col: #111;
+	--heading: #2ec2e0;
+	--subheading: #0d86d9;
+	--links: #0d86d9;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+	--bg: #111;
+	--col: #fff;
+	--heading: #c8f7d1;
+	--subheading: #33c1ea;
+	--links: #33c1ea;
+	}
+}*/
+html{
+	display: inline-block; 
+	text-align: center;
+}
+body {
+	max-width: 70em;
+	margin: 0 auto;
+	/*border: 20rem;
+	padding: 0rem;*/
+	font-size: 0.7rem;
+}
+h1{
+	color: steelblue;	
+}
+h2{
+	color: steelblue;
+}
+p{
+	color: darkgray;
+	font-size: 0.8rem;
+}
+body{
+	Background: rgb(59, 58, 58);
+}
+.title{
+	color: rgb(50, 50, 255);
+}
+.StandardTableStyle{
+	color: darkgray;
+	font-size: 1.0rem;
+	vertical-align: top;
+	align-items: center;
+}
+.TableEntry{
+	color: steelblue;
+	font-size: 1.5rem;
+}
+.TableEntryHeader{
+	color: steelblue;
+	font-size: 2.0rem;
+}
+.TableInventory{
+	color: tomato;
+	vertical-align: top;
+	align-items: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.2rem;
+}
