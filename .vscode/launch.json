@@ -11,7 +11,7 @@
       "name": "Launch Microsoft Edge and open the Edge DevTools",
       "request": "launch",
       "type": "vscode-edge-devtools.debug",
-      "url": "C:\\Espressif\\MyProjects\\ScanForAP\\main\\IndexHTML.html" // Provide your project's url to finish configuring
+      "url": "C:\\Espressif\\MyProjects\\ScanForAP\\main\\ScanForAPsHTML.html" // Provide your project's url to finish configuring
     }
   ]
 }

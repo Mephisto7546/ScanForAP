@@ -476,7 +476,7 @@ static void InitWebServer(void){
 static httpd_handle_t StartWebServer(void){
   httpd_handle_t Server 	= NULL;
   httpd_config_t WSConfig	= HTTPD_DEFAULT_CONFIG();
-  WSConfig.server_port    = ServerPort;
+  WSConfig.server_port    	= ServerPort;
   WSConfig.lru_purge_enable	= true;
 
   ESP_LOGI(TSCAN,"Startin web server on port: '%d'", WSConfig.server_port);
