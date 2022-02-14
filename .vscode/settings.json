@@ -7,4 +7,10 @@
 	"target/esp32.cfg"
 ],
 "cmake.configureOnOpen": false,
+"files.associations": {
+	"*.inc": "c",
+	"esp_vfs.h": "c",
+	"cjson.h": "c",
+	"esp_http_server.h": "c"
+},
 }
