@@ -1,7 +1,7 @@
 {
 "C_Cpp.intelliSenseEngine": "Tag Parser",
 "idf.adapterTargetName": "esp32",
-"idf.portWin": "COM5",
+"idf.portWin": "COM9",
 "idf.openOcdConfigs": [
 	"interface/jlink.cfg",
 	"target/esp32.cfg"
@@ -11,6 +11,11 @@
 	"*.inc": "c",
 	"esp_vfs.h": "c",
 	"cjson.h": "c",
-	"esp_http_server.h": "c"
+	"ScanedAPsHTML.h": "html",
+	"esp_event.h": "c",
+	"esp_wifi.h": "c",
+	"random": "c",
+	"stdio.h": "c"
 },
+"idf.flashType": "JTAG",
 }

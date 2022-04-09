@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := template
+PROJECT_NAME := APScan
 
 include $(IDF_PATH)/make/project.mk
 SPIFFS_IMAGE_FLASH_IN_PROJECT := 1

@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "preLaunchTask": "FlashU",
+      // "preLaunchTask": "FlashU",
       "name": "ESP32Debug",
       "type": "espidf",
       "request": "launch"
