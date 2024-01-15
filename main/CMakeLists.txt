@@ -6,4 +6,5 @@ SPIFFsImage/WifiNeutral.png
 SPIFFsImage/WifiLV1.png 
 SPIFFsImage/WifiLV2.png 
 SPIFFsImage/WifiLV3.png 
-SPIFFsImage/WifiLV4.png)
+SPIFFsImage/WifiLV4.png
+SPIFFsImage/)
